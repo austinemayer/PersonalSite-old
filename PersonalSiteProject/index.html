@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<head>
+
+	<meta charset="utf-8">
+	<title>TriFox Design</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/layout.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+    <link rel='stylesheet' type='text/css' href='css/style.css'/>
+
+</head>
+<body>
+
+	<div class="container">
+        <canvas id="topquote" class='quote' width="940" height="100">Your browser does not support canvas.</canvas>
+        <canvas id="trilogo" class='logo' width="200" height="256">Your browser does not support canvas.</canvas>
+        <div class='menu'>
+            <div class='links navbox one-third column'>   
+                    <div class='left'>
+                         <h4><a id='contact' href='#'>Austin Mayer</a></h4>
+                    </div>       
+            </div>
+
+            <div class='copy navbox one-third column'>
+                    <div class='middle'>
+                        <h4><a id='sources' href='#'>Sources</a></h4>
+                    </div>  
+            </div>
+            
+            <div class='bar navbox one-third column'>
+                    <div class='right'>
+                    	<h4><a id='links' href='#'>Media</a></h4>
+                    </div>
+             </div>
+        </div>
+
+        <div class='content row'>
+
+                    <div class='left'>
+                             <h4><a class='designvid' href='#'>Design Video</a></h4>
+                                 <a class='designvid' href='#'><img src='images/vidthumb.jpg' alt=''/>      
+                                 <p>This is a web design video showing you what styles of design and some inspiration.</p></a>   
+                    </div>       
+            
+                    <div class='right'>
+                            <h4><a class='lightbox' href='#'>Image Gallery</a></h4>
+                                 <a class='lightbox' href='#'><img src='images/galleythumb.jpg' alt=''/>
+                                 <p>Here are some photos of project websites I have worked on in the past.</p></a>
+                    </div>  
+            
+                    <div class='close'>
+                        <h4><a id='close' href='#'>Close</a></h4>
+                    </div>
+             
+        </div>
+
+        <div class='lightboxcontent row'>
+            <div class='contcol offset-by-fifteen one-fourth column'>
+                    <div>
+                        <h4><a class='closelightbox' href='#'>x</a></h4>
+                    </div>
+             </div>
+            <div class='one-third column'>
+                <h1 class='gallerytitle'>Design Gallery</h1>
+                <p>This is a photo gallery of some sites I have designed so far.</p>
+                    <ul class='galleryimgs'>
+                        <li class='one-half column'>
+                            <a href='images/cc1.jpg' class='lightboxselect'>
+                            <img src='images/cc1_tn.jpg' alt='' />
+                            </a>
+                        </li>
+                        <li class='one-half column'>
+                            <a href='images/cc2.jpg' class='lightboxselect'>
+                            <img src='images/cc2_tn.jpg' alt='' />
+                            </a>
+                        </li>
+                        <li class='one-half column'>
+                            <a href='images/cc3.jpg' class='lightboxselect'>
+                            <img src='images/cc3_tn.jpg' alt='' />
+                            </a>
+                        </li>
+                        <li class='one-half column'>
+                            <a href='images/fileroo1.jpg' class='lightboxselect'>
+                            <img src='images/fileroo1_tn.jpg' alt='' />
+                            </a>
+                        </li>
+                        <li class='one-half column'>
+                            <a href='images/fileroo2.jpg' class='lightboxselect'>
+                            <img src='images/fileroo2_tn.jpg' alt='' />
+                            </a>
+                        </li>
+                        <li class='one-half column'>
+                            <a href='images/pf1.jpg' class='lightboxselect'>
+                            <img src='images/pf1_tn.jpg' alt='' />
+                            </a>
+                        </li> 
+                    </ul>
+            </div>
+            <div class="one-half column" id="lightboxControl">
+                <div id="imgcontent">
+                    <img src="" />
+                </div>
+            </div>
+        </div>
+
+        <div class='contactcontent row'>
+            <div class='contcol offset-by-fifteen one-fourth column'>
+                    <div>
+                        <h4><a class='closecontact' href='#'>x</a></h4>
+                    </div>
+            </div>
+            <div class='contactinfo row'>
+                 <h1>Contact Information</h1>
+                 <div class='one-half column'>
+                 <p><b>Phone: </b>1-(563)-528-3236</p>
+                 <p><b>Email: </b>austinemayer@gmail.com</p>
+                 </div>
+                <div class='one-half column'>
+                 <p><b>LinkedIn: </b><a href='www.linkedin.com/in/austinemayer'>www.linkedin.com/in/austinemayer</a></p>
+                 <p><b>GitHub: </b><a href='www.github.com/austinemayer'>www.github.com/austinemayer</a></p>
+                 </div> 
+            </div>
+
+            <div class='map_container'>
+                <a class='dot' href='#'></a>
+
+                    <div class='location_detail'>
+                        <h3>Mailing Address</h3>
+                        <p>14843 sussex dr.</p>
+                        <p>Orlando, Fl 32826</p>
+                    </div>
+               
+            </div>
+        </div>
+
+        <div class='videocontent row'>
+            <div class='contcol offset-by-fifteen one-fourth column'>
+                    <div>
+                        <h4><a class='closevideo' href='#'>x</a></h4>
+                    </div>
+            </div>
+            <div class='videotitle row'>
+                 <h1>Web Design Video</h1>
+            </div>
+
+            <video id='vid' controls poster='images/poster.jpg'>
+                  <source src='video/WebDesign.mp4' type='video/mp4'/>
+                  Video is not supported
+            </video>
+        </div>
+
+        <div class='sourcecontent row'>
+            <div class='contcol offset-by-fifteen one-fourth column'>
+                    <div>
+                        <h4><a class='closesources' href='#'>x</a></h4>
+                    </div>
+            </div>
+            <div class='sourcetitle row'>
+                 <h1>Files And Sources Used</h1>
+            </div>
+
+            <div class='sourcecontainer row'>
+                <ul class='sourcelist'>
+                    <li class='sourcetable'>
+                        <a href='http://www.getskeleton.com/'><img src='images/skeleton_tn.jpg' alt=''/>
+                        <p>I used the skeleton frame work in this site because of the ease of laying elements out and the lack of style skeleton implements</p></a>
+                    </li>
+                    <li class='sourcetable'>
+                        <a href='http://jqueryui.com/'><img src='images/jquery_tn.jpg' alt=''/>
+                        <p>JQuery is one of the best libraries, of javascript, to use for creating great sites with many animations and media elements.</p></a>
+                    </li>
+                    <li class='sourcetable'>
+                        <a href='https://www.youtube.com/watch?v=6bhqwm6g2qQ'><img src='images/youtube_tn.jpg' alt=''/>
+                        <p>The video I choose does not pertain to myself but to web design in general. I found this video on the Youtube creative commons section.</p></a>
+                    </li>
+                    <li class='sourcetable'>
+                        <a href='https://www.google.com/maps/@28.5396964,-81.3680634,11z'><img src='images/googlemaps_tn.jpg' alt=''/>
+                        <p>For getting a map of orlando specifily where I am located, I used a screen capture from google maps.</p></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        </div>
+        
+        <script type="text/javascript" src="js/main.js"></script>
+	</div>
+
+</body>
+</html>

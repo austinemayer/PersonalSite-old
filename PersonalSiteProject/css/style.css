@@ -1,0 +1,324 @@
+body{
+	background: url(../images/mountainsbackground2.jpg)  top center no-repeat;
+	font: 18px "Century Gothic",verdana,arial,helvetica,sans-serif;
+	margin: 60px;
+}
+
+.container a{
+		font: 24px "Century Gothic",verdana,arial,helvetica,sans-serif;
+}
+
+#topquote{
+		margin-bottom: 20px;
+		
+}
+
+.menu a{
+	text-decoration: none;
+	letter-spacing: 5px;
+}
+
+.menu{
+  position: absolute;
+  top: 595px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbox{
+	height: 80px;
+	background: url(../images/cubed.png);
+}
+
+.navbox .left{
+	margin: 25px 20px 20px 45px;
+}
+
+.navbox .middle{
+	margin: 25px 20px 20px 90px;
+}
+
+.navbox .right{
+	margin: 25px 20px 20px 100px;
+}
+
+.quote{
+	position: relative;
+	margin-left: 20px;
+}
+
+.logo{
+	position: absolute;
+	top: 150px;
+	left: 380px;
+}
+
+.close{
+	float: left;
+}
+
+.content .left{
+	margin: 10px 0 0 10px;
+	width: 45%;
+	float: left;
+}
+
+.content .right{
+	margin: 10px 0 0 10px;
+	width: 45%;
+	float: left;
+}
+
+.content .left img{
+	margin: 10px 0 0 15px;
+	float: left;
+	width: 30%;
+}
+
+.content .left p{
+	margin: 10px 0 0 15px;
+	float: left;
+	width: 60%;
+}
+
+.content .right img{
+	margin: 10px 0 0 15px;
+	float: left;
+	width: 30%;
+}
+
+.content .right p{
+	margin: 10px 0 0 15px;
+	float: left;
+	width: 60%;
+}
+
+.content .left a:nth-child(2){
+	font: 18px "Century Gothic",verdana,arial,helvetica,sans-serif;
+}
+
+.content .right a:nth-child(2){
+	font: 18px "Century Gothic",verdana,arial,helvetica,sans-serif;
+}
+
+.lightboxcontent{
+	background: url(../images/cubed.png);
+    position: absolute;
+    display: none;
+    z-index: 1;
+    opacity: 0;
+    left: 10px;
+    width: 940px;
+    top: -30px;
+    height: 445px;
+}
+
+.galleryimgs li img{
+	margin: 5px 0px 0px 20px;
+}
+
+.gallerytitle{
+	text-decoration: underline;
+	margin: 0 0 20px 20px;
+	font: 36px "Century Gothic",verdana,arial,helvetica,sans-serif;
+	color: #333333;
+}
+
+.gallerytitle + p{
+	margin-left: 20px;
+}
+
+.contactcontent{
+	background: url(../images/cubed.png);
+    position: absolute;
+    display: none;
+    z-index: 3;
+    opacity: 0;
+    left: 10px;
+    width: 940px;
+    top: -30px;
+    height: 610px;
+}
+
+.videocontent{
+	background: url(../images/cubed.png);
+    position: absolute;
+    display: none;
+    z-index: 2;
+    opacity: 0;
+    left: 10px;
+    width: 940px;
+    top: -30px;
+    height: 610px;
+}
+
+
+.sourcecontent{
+	background: url(../images/cubed.png);
+    position: absolute;
+    display: none;
+    z-index: 2;
+    opacity: 0;
+    left: 10px;
+    width: 940px;
+    top: -30px;
+    height: 610px;
+}
+
+
+.closelightbox{
+	margin-left:7px;
+	text-decoration: none;
+}
+
+.closecontact{
+	margin-left:7px;
+	text-decoration: none;
+}
+
+.closesources{
+	margin-left:7px;
+	text-decoration: none;
+}
+
+.closevideo{
+	margin-left:7px;
+	text-decoration: none;
+}
+
+#vid{
+	width: 860px;
+	
+	margin-left: 40px;
+}
+
+.content{
+	background: url(../images/cubed.png);
+    position: absolute;
+    opacity: 0;
+    left: 10px;
+    width: 940px;
+    top: 750px;
+    height: 150px;
+}
+
+.contcol{
+	margin: 0 0 0 0;
+}
+
+
+.map_container{
+	background: url(../images/template/orlando_map.jpg) no-repeat 0 0;
+	height: 400px;
+	width: 940px;
+	position: relative;
+	top: 15px;
+	left: 20px;
+	color: #ffffff;
+	margin: 0 0 0 0;
+}
+
+.map_container a.dot{
+	background: url(../images/template/dot_red.png) no-repeat 0 0;
+	height: 46px;
+	width: 40px;
+	top: 99px; 
+	left: 748px;
+	display: block;
+	position: absolute;
+	cursor: pointer;
+}
+
+.map_container a.dot:hover{
+	background: url(../images/template/dot_yellow.png);
+}
+
+.map_container a.dot.selected{
+	background: url(../images/template/dot_green.png)
+}
+
+.map_container .location_detail {
+	background-color: rgba(51,51,51,.75);
+    position: absolute;
+    opacity: 0;
+    display: hidden;
+    margin: 20px 20px;
+	padding: 10px 10px 10px 10px;
+}
+
+.location_detail h3{
+	font: bold 24px "Century Gothic",verdana,arial,helvetica,sans-serif;
+	color: rgb(219,219,219);
+}
+
+p b{
+	margin-left: 50px;
+	font-weight: bold;
+}
+
+.contactinfo a{
+		font: 16px "Century Gothic",verdana,arial,helvetica,sans-serif;
+}
+
+.contactinfo h1{
+		text-decoration: underline;
+		margin: 0 0 20px 20px;
+		font: 36px "Century Gothic",verdana,arial,helvetica,sans-serif;
+		color: #333333;
+}
+
+.videotitle h1{
+		text-decoration: underline;
+		margin: 0 0 20px 20px;
+		font: 36px "Century Gothic",verdana,arial,helvetica,sans-serif;
+		color: #333333;
+}
+
+.sourcelist{
+	margin-left: 40px;
+	float: left;
+}
+
+.sourcetable{
+	float: left;
+	width: 400px;
+	height: 200px;
+	margin: 20px 10px 20px 10px;
+	text-align: center;
+}
+
+.sourcetable img{
+	height: 125px;
+}
+
+.sourcetable a{
+	text-decoration: none;
+	font: 18px "Century Gothic",verdana,arial,helvetica,sans-serif;
+}
+
+.sourcetitle h1{
+		text-decoration: underline;
+		margin: 0 0 0 20px;
+		font: 36px "Century Gothic",verdana,arial,helvetica,sans-serif;
+		color: #333333;
+}
+
+.contactinfo{
+	height: 155px;
+}
+
+#lightboxControl p {
+    text-align:right; 
+    color:#fff; 
+    margin-right:20px; 
+    font-size:12px; 
+}
+
+#lightboxControl img {
+    box-shadow:0 0 25px #333333;
+    width:590px;
+    height:390px;
+    background-color: rgba(51,51,51,.75);
+}
+
+
