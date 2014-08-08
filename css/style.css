@@ -6,11 +6,12 @@ body{
 
 .container a{
 		font: 24px "Century Gothic",verdana,arial,helvetica,sans-serif;
+		text-decoration: none;
 }
 
 #topquote{
 		margin-bottom: 20px;
-		
+
 }
 
 .menu a{
@@ -118,10 +119,11 @@ body{
 }
 
 .gallerytitle{
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 	margin: 0 0 20px 20px;
 	font: 36px "Century Gothic",verdana,arial,helvetica,sans-serif;
 	color: #333333;
+	
 }
 
 .gallerytitle + p{
@@ -188,7 +190,7 @@ body{
 
 #vid{
 	width: 860px;
-	
+
 	margin-left: 40px;
 }
 
@@ -222,7 +224,7 @@ body{
 	background: url(../images/template/dot_red.png) no-repeat 0 0;
 	height: 46px;
 	width: 40px;
-	top: 99px; 
+	top: 99px;
 	left: 748px;
 	display: block;
 	position: absolute;
@@ -308,10 +310,10 @@ p b{
 }
 
 #lightboxControl p {
-    text-align:right; 
-    color:#fff; 
-    margin-right:20px; 
-    font-size:12px; 
+    text-align:right;
+    color:#fff;
+    margin-right:20px;
+    font-size:12px;
 }
 
 #lightboxControl img {
@@ -320,5 +322,3 @@ p b{
     height:390px;
     background-color: rgba(51,51,51,.75);
 }
-
-
