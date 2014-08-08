@@ -26,7 +26,7 @@ Deployment Plan
 	cd /var/www
 
 10. Now you want to pull the down the master branch to update the server.
-	git pull BRANCHNAME master
+	git pull portfolio master
 
 11. And you are finished! exit the server.
 	exit
